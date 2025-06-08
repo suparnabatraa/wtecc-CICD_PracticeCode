@@ -1,21 +1,16 @@
-# Intro to CI/CD Practice Code
+**CI/CD Tools and Practices Final Project Template**
+This repository contains the template to be used for the Final Project for the Coursera course CI/CD Tools and Practices.
 
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-[![Python 3.9](https://img.shields.io/badge/Python-3.9-green.svg)](https://shields.io/)
+**Usage**
+This repository is to be used as a template to create your own repository in your own GitHub account. No need to Fork it as it has been set up as a Template. This will avoid confusion when making Pull Requests in the future.
 
-This repository contains the practice code for the labs in **IBM-CD0215EN-SkillsNetwork Introduction to CI/CD**
+From the GitHub Code page, press the green Use this template button to create your own repository from this template.
 
-## Contents
+Name your repo: wtecc-CICD_PracticeCode
+Setup
+After entering the lab environment you will need to run the setup.sh script in the ./bin folder to install the prerequisite software.
 
-- Lab 1: [Build an empty Pipeline](labs/01_base_pipeline/README.md)
-- Lab 2: [Adding GitHub Triggers](labs/02_add_git_trigger/README.md)
-- Lab 3: [Use Tekton CD Catalog](labs/03_use_tekton_catalog/README.md)
-- Lab 4: [Integrate Unit Test Automation](labs/04_unit_test_automation/README.md)
-- Lab 5: [Building an Image](labs/05_build_an_image/README.md)
-- Lab 6: [Deploy to Kubernetes](labs/06_deploy_to_kubernetes/README.md)
+bash bin/setup.sh
+Then you must exit the shell and start a new one for the Python virtual environment to be activated.
 
-## Instructor
-
-John Rofrano, Senior Technical Staff Member, DevOps Champion, @ IBM Research
-
-## <h3 align="center"> © IBM Corporation 2022. All rights reserved. <h3/>
+exit
